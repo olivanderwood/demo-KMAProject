@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" /><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./tailwind.min.css">
+    <title>Học viện kỹ thuật mật mã TPHCM</title>
+</head>
+<body>
+    <div class="custom-header bg-gray-700 overflow-hidden" >
+        <div class="bg-white">
+            <div class="container hidden md:block">
+                <ul class="flex justify-end py-2">
+                    <li class="select px-4 border-l border-gray-500"><a href="#"><span>Sinh viên</span></a></li>
+                    <li class="px-4 border-l border-gray-500"><a href="#"><span>Thư viện điện tử</span></a></li>
+                    <li class="px-4 border-l border-gray-500 border-r "><a href="#"><span>Diễn đàn</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="container d-flex justify-between py-2">
+            <div class="row w-full items-center">
+                <a to="#" class='d-flex col-12 col-md-9 align-items-center hover:no-underline hover:text-gray-300 text-gray-300' >
+                    <img src='./assets/bg.png' style="width: auto; height: 100px; margin-right: 1rem" />
+                    <div style="font-weight: bold" class="text-xl sm:text-2xl">
+                        <h1>Học viện kỹ thuật mật mã</h1>
+                        <h2>Phân hiệu TP.Hồ Chí Minh</h2>
+                    </div>                        
+                </a>
+
+                <div  style="float: right; font-weight: bold" class='col-3 flex hidden md:block flex items-center'>
+                    <div class="shadow flex w-full">
+                        <input class="w-full rounded-l p-2 focus:outline-none focus:bg-blue-100 duration-300" type="text" placeholder="Search...">
+                        <button class="bg-white w-auto flex rounded-r justify-end items-center text-blue-500 p-2 hover:text-blue-400">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mainnav" class="clearfix md:text-gray-600 text-gray-600 bg-gray-700 md:bg-white position-relative z-50">
+            <div class="CSSMENU container hidden md:block ">
+                <ul id="menu">
+                    <li class="font-bold select"><a href="#" class='py-3'><p>Trang chủ</p></a></li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3' ><p>Giới thiệu</p></a>
+                        <ul class='opacity-0 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Lịch sử hình thành</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Logo Học viện</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold "><a href="#" class='py-3'><p>Đào tạo</p></a></li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3'><p>Khoa học công nghệ</p></a>
+                        <ul class='opacity-0 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Chiến lược KH-CN</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Viện nghiên cứu</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3'><p>Sinh viên</p></a>
+                        <ul class='opacity-0 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Giới thiệu chung</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Học bổng</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Đoàn-hội</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Tuyển dụng cho sinh viên</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Văn bản-Biểu mẫu</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Office 365</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3'><p>Hợp tác quốc tế</p></a>
+                        <ul class='opacity-0 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Giới thiệu chung</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Đối tác quốc tế</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold "><a href="#" class='py-3'><p>Liên hệ</p></a></li>
+                    <li>
+                       
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex container justify-between items-center mb-3 px-3 md:hidden">
+                <div class="dropbtn" onclick="showMenuLeft()"><i class="fas fa-ellipsis-v text-white hover:text-blue-700" style="font-size: 16px;"></i></div>
+                <div class="dropdown md:hidden flex justify-end"> 
+                    <div onclick="offMenuMini()" class="hidden opacity-bg dropdown-content fixed h-screen w-screen">
+                    </div>
+                    <div class="w-80s left-movie bg-white h-screen fixed">
+                        <div class="times"><i class="fas fa-times absolute" onclick="offMenuLeft()" style="font-size: 30px;"></i></div>
+                        <ul class="flex dropdown-content-child p-3 flex-col z-20 py-2 items-start mt-5">
+                            <li class="select py-3"><a href="#"><span>Sinh viên</span></a></li>
+                            <li class="py-3"><a href="#"><span>Thư viện điện tử</span></a></li>
+                            <li class="py-3"><a href="#"><span>Diễn đàn</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <i class="fas fa-bars text-white" onclick="showMenuSmallScreen()" style="font-size: 16px;"></i>
+            </div>
+
+            <div class="container bg-white rounded-t md:hidden">
+                <div class="flex justify-between py-2 items-center">
+                    <!-- <div><a href="#"><i class="fas fa-home" style="font-size: 20px;"></i></a></div> -->
+                    <div class="w-100 flex items-center">
+                        <input id="searchInput" class="rounded-l focus:outline-none focus:bg-blue-100 duration-300" type="text" style="width: calc(100% - 20px);" placeholder="Search...">
+                        <i id="searchBtn" class="fas fa-search" style="font-size: 16px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://s27389.pcdn.co/wp-content/uploads/2017/08/AdobeStock_92002499-3-1024x683.jpeg"  style='max-height: 600px; ' class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cmccybersecurity.com/wp-content/uploads/2020/10/Cyber-Security-Importance-1080x675-1.jpeg"   style='max-height: 600px; 'class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cache.techmahindra.com/static/img/cyber-scurity.jpg"   style='max-height: 600px; 'class="d-block w-100" alt="...">
+              </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container py-5 ">
+        <div class="row py-5">
+            <div class="col-12 col-md-4">
+                <a class="flex flex-column items-center hover:no-underline" href="#">
+                    <img src="https://www.hoahoc24h.com/uploads/tuyen-sinh/2020_02/thong-tin-tuyen-sinh-2020.jpg" class='shadow-md rounded' alt="" style="width:100%; height:240px">
+                    <p class='text-xl font-bold text-blue-600'>Thông tin tuyển sinh</p>
+                </a>
+            </div>
+            <div class="col-12 my-4 my-md-0 col-md-4">
+                <a class="flex flex-column items-center hover:no-underline" href="#">
+                    <img src="data:image/jpeg;base64,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" class='shadow-md rounded' alt="" style="width:100%; height:240px">
+                    <p class='text-xl font-bold text-blue-600'>Tuyển sinh sau đại học</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a class="flex flex-column items-center hover:no-underline" href="#">
+                    <img src="https://www.esicm.org/wp-content/uploads/2017/06/elearning.png" class='shadow-md rounded' alt="" style="width:100%; height:240px">
+                    <p class='text-xl font-bold text-blue-600'>Học online</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-700">
+        <div class="container majors-custom py-5">
+            <div class="row pt-2">
+                <p class="text-white text-3xl font-bold flex justify-center">CÁC KHOA ĐÀO TẠO</p>
+            </div>
+            <div class="row py-5">
+                <a href='#' class="col-12 col-md-3 mb-4 mb-md-0 flex flex-column items-center">
+                    <img src="https://img.icons8.com/fluent/100/000000/book.png"/>
+                    <p class='text-white font-semibold text-2xl'>Trung tâm ngoại ngữ KMA</p>
+                </a>
+                <a href='#' class="col-12 col-md-3 mb-4 mb-md-0 flex flex-column items-center">
+                    <img src="https://img.icons8.com/fluent/100/000000/gps-receiving.png"/>
+                    <p class='text-white font-semibold text-2xl'>Điện tử viễn thông</p>
+                </a>   
+                <a href='#' class="col-12 col-md-3 mb-4 mb-md-0 flex flex-column items-center">
+                    <img src="https://img.icons8.com/fluent/100/000000/office-365-security--compliance.png"/>
+                    <p class='text-white font-semibold text-2xl'>An toàn thông tin</p>
+                </a>
+                <a href='#' class="col-12 col-md-3 mb-4 mb-md-0 flex flex-column items-center">
+                    <img src="https://img.icons8.com/fluent/100/4a90e2/computers-connecting.png"/>
+                    <p class='text-white font-semibold text-2xl'>Công nghệ thông tin</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container py-3 my-3">
+        <div class="row">
+            <div class="col-12 col-sm-8 bg-white">
+                <p class="text-gray-600 text-3xl font-bold">TIN TỨC & SỰ KIỆN</p>
+                <div class="row" style="font-size: 18px">
+                    <div class="mt-3 mb-4 col-12 col-md-6">
+                        <a class="flex flex-column items-start hover:no-underline" href="#">
+                            <img src="http://home.actvn.edu.vn/Upload/news/gl1.jpg" class='shadow-md' alt="" style="width:100%; height:240px">
+                            <p class='text-gray-800 custom-ellipsis'>Giao lưu chào mừng ngày Nhà giáo Việt Nam 20/11 Chủ đề “Phụ nữ duyên dáng, tự tin, tài năng” năm 2020</p>
+                            <i class='text-sm my-2 text-gray-600'>7 giờ trước</i>
+                        </a>
+                    </div>
+                    <div class="mt-3 mb-4 col-12 col-md-6">
+                        <a class="flex flex-column items-start hover:no-underline" href="#">
+                            <img src="http://home.actvn.edu.vn/Upload/news/bdsv2.jpg" class='shadow-md' alt="" style="width:100%; height:240px">
+                            <p class='text-gray-800 custom-ellipsis'>Khai mạc giải bóng đá học viên, sinh viên năm 2020</p>
+                            <i class='text-sm my-2 text-gray-600'>7 giờ trước</i>
+                        </a>
+                    </div>
+                    <div class="mt-3 mb-4 col-12 col-md-6">
+                        <a class="flex flex-column items-start hover:no-underline" href="#">
+                            <img src="http://home.actvn.edu.vn/Upload/news/ht3.jpg" class='shadow-md' alt="" style="width:100%; height:240px">
+                            <p class='text-gray-800 custom-ellipsis'>Học viện Kỹ thuật mật mã tổ chức hội thảo định hướng phát triển học viện</p>
+                            <i class='text-sm my-2 text-gray-600'>7 giờ trước</i>
+                        </a>
+                    </div>
+                    <div class="mt-3 mb-4 col-12 col-md-6">
+                        <a class="flex flex-column items-start hover:no-underline" href="#">
+                            <img src="http://home.actvn.edu.vn/Upload/news/qg1.jpg" class='shadow-md' alt="" style="width:100%; height:240px">
+                            <p class='text-gray-800 custom-ellipsis'>Học viện Kỹ thuật mật mã quyên góp ủng hộ sách truyện, đồ dùng học tập cho các em học sinh Lào Cai</p>
+                            <i class='text-sm my-2 text-gray-600'>7 giờ trước</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p class="text-gray-600 text-3xl font-bold">THÔNG BÁO</p>
+                <div class="row mt-3">
+                    <div class="col-12 divide-y divide-gray-400 px-3">
+                        <div class="pb-4 font-medium">
+                            <a href="#" class='hover:underline'>
+                                <p class='text-gray-800'>Giao lưu chào mừng ngày Nhà giáo Việt Nam 20/11 Chủ đề “Phụ nữ duyên dáng, tự tin, tài năng” năm 2020</p>
+                                <p class='text-blue-500 mt-2'>14/12/2020</p>
+                            </a>
+                        </div>
+                        <div class="py-4 font-medium">
+                            <a href="#" class='hover:underline'>
+                                <p class='text-gray-800'>Giao lưu chào mừng ngày Nhà giáo Việt Nam 20/11 Chủ đề “Phụ nữ duyên dáng, tự tin, tài năng” năm 2020</p>
+                                <p class='text-blue-500 mt-2'>14/12/2020</p>
+                            </a>
+                        </div>
+                        <div class="py-4 font-medium">
+                            <a href="#" class='hover:underline'>
+                                <p class='text-gray-800'>Giao lưu chào mừng ngày Nhà giáo Việt Nam 20/11 Chủ đề “Phụ nữ duyên dáng, tự tin, tài năng” năm 2020</p>
+                                <p class='text-blue-500 mt-2'>14/12/2020</p>
+                            </a>
+                        </div>
+                        <div class="py-4 font-medium">
+                            <a href="#" class='hover:underline'>
+                                <p class='text-gray-800'>Giao lưu chào mừng ngày Nhà giáo Việt Nam 20/11 Chủ đề “Phụ nữ duyên dáng, tự tin, tài năng” năm 2020</p>
+                                <p class='text-blue-500 mt-2'>14/12/2020</p>
+                            </a>
+                        </div>
+                        <div class="py-4 font-medium">
+                            <a href="#" class='hover:underline'>
+                                <p class='text-gray-800'>Giao lưu chào mừng ngày Nhà giáo Việt Nam 20/11 Chủ đề “Phụ nữ duyên dáng, tự tin, tài năng” năm 2020</p>
+                                <p class='text-blue-500 mt-2'>14/12/2020</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-700">
+        <div class="container text-white">
+            <div class="row py-4">
+                <div class="col-12 mb-3 mb-sm-0 col-sm-8">
+                    <p class="text-3xl font-bold">Học viện kỹ thuật mật mã TP.HCM</p>
+                    <p>
+                        <i class="fas fa-map-marker-alt text-blue-400 text-lg"></i>
+                        <span>
+                            17A Cộng Hòa, Phường 4, Tân Bình, Thành phố Hồ Chí Minh
+                        </span>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <p class="text-3xl font-bold">Liên hệ</p>
+                    <div class="flex text-3xl">
+                        <img src="./assets/Facebook.png" style="height: 2.5rem; width: auto" class="mr-3" alt="">
+                        <img src="./assets/Google+.png" style="height: 2.5rem; width: auto" class="mr-3" alt="">
+                        <img src="./assets/Twitter.png" style="height: 2.5rem; width: auto" class="mr-3" alt="">
+                        <img src="./assets/Mail.png" style="height: 2.5rem; width: auto" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p class="flex justify-center pb-3 text-white">© Copyright 2020 Browng</p>
+    </div>
+    <div class="">
+        <div onclick="offMenuMini()" class="hidden opacity-bg bars-list fixed h-screen w-screen">
+        </div>
+        <div class="list_bars md:hidden text-gray-600 bg-white fixed z-50 w-80s h-screen">
+        
+            <div class="CSSMENU container mt-5">
+                <ul id="menu">
+                    <li class="times"><i class="fas fa-times absolute" onclick="offMenuSmallScreen()" style="font-size: 30px;"></i></li>
+                    <li class="font-bold select"><a href="#" class='py-3'><p>Trang chủ</p></a></li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3' ><p>Giới thiệu</p></a>
+                        <ul class='opacity-0 z-20 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Lịch sử hình thành</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Logo Học viện</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold "><a href="#" class='py-3'><p>Đào tạo</p></a></li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3'><p>Khoa học công nghệ</p></a>
+                        <ul class='opacity-0 z-20 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Chiến lược KH-CN</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Viện nghiên cứu</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3'><p>Sinh viên</p></a>
+                        <ul class='opacity-0 z-20 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Giới thiệu chung</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Học bổng</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Đoàn-hội</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Tuyển dụng cho sinh viên</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Văn bản-Biểu mẫu</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Office 365</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold ">
+                        <a href="#" class='py-3'><p>Hợp tác quốc tế</p></a>
+                        <ul class='opacity-0 z-20 duration-300 invisible flex flex-column absolute bg-white lg:divide-y divide-gray-400' style="width: 15rem">
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Giới thiệu chung</a></li>
+                            <li><a href="#" class="p-3 hover:bg-gray-700 font-semibold hover:text-white">Đối tác quốc tế</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold "><a href="#" class='py-3'><p>Liên hệ</p></a></li>
+                    <li>
+                       
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha512-TawcSfIUO8yB0Or8FXEDW2X32Q71ZGAOYVVwe7n3EsoyQb+iMZbodI6RnQ4JDcItNoO3TmwP7/bD89vhQA4zTA==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+<script>
+
+    function showMenuSmallScreen() {
+        var list_bars = document.getElementsByClassName("list_bars")
+        var bg = document.getElementsByClassName("opacity-bg")
+        bg[0].classList.remove("hidden")
+        list_bars[0].classList.add("showListRight")
+    }
+
+    
+    function showMenuLeft() {
+        var bg = document.getElementsByClassName("opacity-bg")
+        var list_bars = document.getElementsByClassName("left-movie")
+        bg[0].classList.remove("hidden")
+        list_bars[0].classList.add("showListLeft")
+    }
+
+    
+    function offMenuLeft() {
+        var bg = document.getElementsByClassName("opacity-bg")
+        var list_bars = document.getElementsByClassName("left-movie")
+        bg[0].classList.add("hidden")
+        list_bars[0].classList.remove("showListLeft")
+    }
+
+    function offMenuSmallScreen() {
+        var list_bars = document.getElementsByClassName("list_bars")
+        var bg = document.getElementsByClassName("opacity-bg")
+        bg[0].classList.add("hidden")
+        list_bars[0].classList.remove("showListRight")
+    }
+
+    function offMenuMini() {
+        offMenuLeft();
+        offMenuSmallScreen()
+    }
+
+    function showInput(){
+        var search_input = document.getElementById("searchInput")
+        search_input.classList.toggle("showInput")
+    }
+</script>
+</html>
